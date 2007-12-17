@@ -11,7 +11,6 @@ BuildRequires:	pcre-devel
 BuildRequires:	zlib-devel
 BuildRequires:	autoconf2.5
 BuildRequires:	libtool
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 dnshistory currently processes Apache CLF and Combined logs, Squid access logs,
