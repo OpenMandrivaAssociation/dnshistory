@@ -1,7 +1,7 @@
 Summary:	Processes various log file formats doing dns IP Address lookups
 Name:		dnshistory
 Version:	1.3
-Release:	%mkrel 1
+Release:	%mkrel 3
 License:	GPL
 Group:		File tools
 URL:		http://www.stedee.id.au/dnshistory
