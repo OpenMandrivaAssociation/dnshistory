@@ -1,12 +1,12 @@
 Summary:	Processes various log file formats doing dns IP Address lookups
 Name:		dnshistory
 Version:	1.3
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	GPL
 Group:		File tools
 URL:		http://www.stedee.id.au/dnshistory
 Source:		http://www.stedee.id.au/files/%{name}-%{version}.tar.bz2
-BuildRequires:	db4-devel
+BuildRequires:	db-devel
 BuildRequires:	pcre-devel
 BuildRequires:	zlib-devel
 BuildRequires:	autoconf2.5
@@ -32,7 +32,7 @@ FTP xferlog files and iptables based logs. The log format is auto-detected.
 %install
 rm -rf %{buildroot}
 
-%makeinstall
+%makeinstall_std
 
 install -d %{buildroot}%{_localstatedir}/lib/%{name}
 
