@@ -4,7 +4,7 @@ Version:	1.3
 Release:	9
 License:	GPL
 Group:		File tools
-URL:		http://www.stedee.id.au/dnshistory
+URL:		https://www.stedee.id.au/dnshistory
 Source:		http://www.stedee.id.au/files/%{name}-%{version}.tar.bz2
 BuildRequires:	db-devel
 BuildRequires:	pcre-devel
