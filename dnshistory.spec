@@ -6,6 +6,10 @@ License:	GPL
 Group:		File tools
 URL:		https://www.stedee.id.au/dnshistory
 Source:		http://www.stedee.id.au/files/%{name}-%{version}.tar.bz2
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	db-devel
 BuildRequires:	pcre-devel
 BuildRequires:	zlib-devel
